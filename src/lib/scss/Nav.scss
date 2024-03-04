@@ -43,4 +43,20 @@ nav {
 			}
 		}
 	}
+
+	--mulitple: 1.5;
+
+	span {
+		font-size: calc(var(--medium-font) * var(--mulitple));
+		color: var(--label-color);
+	}
+
+	a {
+		color: var(--font-color);
+	}
+
+	img {
+		height: calc(var(--medium-font) * var(--mulitple));
+		width: calc(var(--medium-font) * var(--mulitple));
+	}
 }
