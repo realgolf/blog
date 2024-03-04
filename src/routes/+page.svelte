@@ -1,2 +1,35 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import PostPreview from '$lib/components/PostPreview.svelte';
+
+	export let data;
+	const { posts } = data;
+</script>
+
+<svelte:head>
+	<title>RealGolf.Games Blog</title>
+</svelte:head>
+
+<main>
+	<h1>RealGolf.Games Blog</h1>
+
+	<p>
+		Here you can find Blog Posts about new features of RealGolf Games or feature we are currently
+		developing, as well as server or database outages so you are always up to date.
+	</p>
+
+	<ol class="no-bullets">
+		{#each posts as post (post.id)}
+			<PostPreview {post} />
+		{/each}
+	</ol>
+</main>
+
+<style>
+	main {
+		margin-left: 1rem;
+	}
+
+	ol {
+		margin-top: 1rem;
+	}
+</style>
