@@ -2,7 +2,6 @@
 	import GoBack from '$lib/components/GoBack.svelte';
 	import sanitizeHTML from '$lib/shared/utils/sanatize_HTML.js';
 
-
 	//import Controls from "$lib/components/Controls.svelte";
 	//import GoBack from '$lib/components/GoBack.svelte';
 
@@ -16,7 +15,7 @@
 </script>
 
 <svelte:head>
-	<title>Real Golf - {title}</title>
+	<title>RealGolf.Games Blog - {title}</title>
 </svelte:head>
 
 <GoBack />

@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-	<title>RealGolf.Games Blog</title>
+	<title>RealGolf.Games Blog - Updates and insides</title>
 </svelte:head>
 
 <main>
