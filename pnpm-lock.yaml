@@ -15,8 +15,8 @@ dependencies:
     specifier: ^0.0.40
     version: 0.0.40
   dompurify:
-    specifier: ^3.0.11
-    version: 3.0.11
+    specifier: ^3.1.2
+    version: 3.1.2
   front-matter:
     specifier: ^4.0.2
     version: 4.0.2
@@ -1202,8 +1202,8 @@ packages:
       esutils: 2.0.3
     dev: true
 
-  /dompurify@3.0.11:
-    resolution: {integrity: sha512-Fan4uMuyB26gFV3ovPoEoQbxRRPfTu3CvImyZnhGq5fsIEO+gEFLp45ISFt+kQBWsK5ulDdT0oV28jS1UrwQLg==}
+  /dompurify@3.1.2:
+    resolution: {integrity: sha512-hLGGBI1tw5N8qTELr3blKjAML/LY4ANxksbS612UiJyDfyf/2D092Pvm+S7pmeTGJRqvlJkFzBoHBQKgQlOQVg==}
     dev: false
 
   /entities@4.5.0:
