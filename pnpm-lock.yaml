@@ -33,8 +33,8 @@ dependencies:
     specifier: ^1.72.0
     version: 1.72.0
   shiki:
-    specifier: ^1.3.0
-    version: 1.3.0
+    specifier: ^1.6.2
+    version: 1.6.2
   svelte-fa:
     specifier: ^4.0.2
     version: 4.0.2(svelte@4.2.17)
@@ -680,8 +680,8 @@ packages:
     requiresBuild: true
     optional: true
 
-  /@shikijs/core@1.3.0:
-    resolution: {integrity: sha512-7fedsBfuILDTBmrYZNFI8B6ATTxhQAasUHllHmjvSZPnoq4bULWoTpHwmuQvZ8Aq03/tAa2IGo6RXqWtHdWaCA==}
+  /@shikijs/core@1.6.2:
+    resolution: {integrity: sha512-guW5JeDzZ7uwOjTfCOFZ2VtVXk5tmkMzBYbKGfXsmAH1qYOej49L5jQDcGmwd6/OgvpmWhzO2GNJkQIFnbwLPQ==}
     dev: false
 
   /@sveltejs/adapter-auto@3.2.0(@sveltejs/kit@2.5.10):
@@ -2145,10 +2145,10 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /shiki@1.3.0:
-    resolution: {integrity: sha512-9aNdQy/etMXctnPzsje1h1XIGm9YfRcSksKOGqZWXA/qP9G18/8fpz5Bjpma8bOgz3tqIpjERAd6/lLjFyzoww==}
+  /shiki@1.6.2:
+    resolution: {integrity: sha512-X3hSm5GzzBd/BmPmGfkueOUADLyBoZo1ojYQXhd+NU2VJn458yt4duaS0rVzC+WtqftSV7mTVvDw+OB9AHi3Eg==}
     dependencies:
-      '@shikijs/core': 1.3.0
+      '@shikijs/core': 1.6.2
     dev: false
 
   /sirv@2.0.4:
